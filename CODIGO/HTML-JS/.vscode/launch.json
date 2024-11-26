@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Launch debug on Firefox",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "file": "${workspaceFolder}/index.html",
+            "pathMappings": [
+                {
+                    "url": "http://localhost:3000",
+                    "path": "${workspaceFolder}"
+                }
+            ]
+        }
+    ]
+}
